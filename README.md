@@ -22,3 +22,5 @@ sim folder: Contains simulations to test the code.
 
 ## Setup
 Setup instructions can be found in the user manual in the docs folder.
+
+Note: The Teacher's version of the Lab Manual should be removed from the docs section before the folder is distributed to students as it contains the answers.
