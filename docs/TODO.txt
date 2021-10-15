@@ -1,6 +1,0 @@
-at end of project:
-
-
-lab manual goes in this folder
-
-other manuals go in this folder
