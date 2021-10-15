@@ -14,7 +14,11 @@ Zicong Yan (22940392)\
 Jonathan Zhang (22941998)
 
 ## General Info
-.
+The file structure of this repository is as follows:
+docs folder: Contains the laboratory manual for students, the user manual, and relevant safety information.
+src folder: Contains FIR Filter code for FPGA.
+sim folder: Contains simulations to test the code.
+
 
 ## Setup
-.
+Setup instructions can be found in the user manual in the docs folder.
