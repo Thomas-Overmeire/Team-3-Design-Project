@@ -1,0 +1,161 @@
+Info: Starting: Create simulation model
+Info: qsys-generate C:\Users\Jon\Desktop\adc_module_for_top_design_2\ADC.qsys --simulation=VHDL --allow-mixed-language-simulation --output-directory=C:\Users\Jon\Desktop\adc_module_for_top_design_2\ADC\testbench\simulation --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading adc_module_for_top_design_2/ADC.qsys
+Progress: Reading input file
+Progress: Adding ADC [altera_modular_adc 18.1]
+Progress: Parameterizing module ADC
+Progress: Adding AvalonBridge [altera_jtag_avalon_master 18.1]
+Progress: Parameterizing module AvalonBridge
+Progress: Adding PLL [altpll 18.1]
+Progress: Parameterizing module PLL
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: ADC.PLL: PLL.areset_conduit must be exported, or connected to a matching conduit.
+Warning: ADC.ADC: Interrupt sender ADC.sample_store_irq is not connected to an interrupt receiver
+Warning: ADC.PLL: PLL.pll_slave must be connected to an Avalon-MM master
+Info: ADC: Generating ADC "ADC" for SIM_VHDL
+Info: ADC: "ADC" instantiated altera_modular_adc "ADC"
+Info: AvalonBridge: "ADC" instantiated altera_jtag_avalon_master "AvalonBridge"
+Info: PLL: Generating VHDL simulation model
+Warning: Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning: Verilog HDL or VHDL warning at ADC_PLL.vhd(316): object "wire_w_address_range2w" assigned a value but never read File: C:/Users/Jon/AppData/Local/Temp/alt8896_6689102642301046997.dir/0004_sopcqmap/ADC_PLL.vhd Line: 316
+Info: PLL: Generated simulation model ADC_PLL.vho
+Info: PLL: "ADC" instantiated altpll "PLL"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "ADC" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "ADC" instantiated altera_reset_controller "rst_controller"
+Info: control_internal: "ADC" instantiated altera_modular_adc_control "control_internal"
+Info: sequencer_internal: "ADC" instantiated altera_modular_adc_sequencer "sequencer_internal"
+Info: sample_store_internal: "ADC" instantiated altera_modular_adc_sample_store "sample_store_internal"
+Info: jtag_phy_embedded_in_jtag_master: "AvalonBridge" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "AvalonBridge" instantiated timing_adapter "timing_adt"
+Info: fifo: "AvalonBridge" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "AvalonBridge" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "AvalonBridge" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "AvalonBridge" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "AvalonBridge" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "AvalonBridge" instantiated channel_adapter "p2b_adapter"
+Info: AvalonBridge_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "AvalonBridge_master_translator"
+Info: ADC_sample_store_csr_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "ADC_sample_store_csr_translator"
+Info: AvalonBridge_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "AvalonBridge_master_agent"
+Info: ADC_sample_store_csr_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "ADC_sample_store_csr_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: AvalonBridge_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "AvalonBridge_master_limiter"
+Info: Reusing file C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: ADC: Done "ADC" with 30 modules, 53 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=C:\Users\Jon\Desktop\adc_module_for_top_design_2\ADC\testbench\ADC.spd --output-directory=C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\Jon\Desktop\adc_module_for_top_design_2\ADC\testbench\ADC.spd --output-directory=C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	29 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\Jon\Desktop\adc_module_for_top_design_2\ADC.qsys --block-symbol-file --output-directory=C:\Users\Jon\Desktop\adc_module_for_top_design_2\ADC\testbench --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading adc_module_for_top_design_2/ADC.qsys
+Progress: Reading input file
+Progress: Adding ADC [altera_modular_adc 18.1]
+Progress: Parameterizing module ADC
+Progress: Adding AvalonBridge [altera_jtag_avalon_master 18.1]
+Progress: Parameterizing module AvalonBridge
+Progress: Adding PLL [altpll 18.1]
+Progress: Parameterizing module PLL
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: ADC.PLL: PLL.areset_conduit must be exported, or connected to a matching conduit.
+Warning: ADC.ADC: Interrupt sender ADC.sample_store_irq is not connected to an interrupt receiver
+Warning: ADC.PLL: PLL.pll_slave must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\Jon\Desktop\adc_module_for_top_design_2\ADC.qsys --synthesis=VHDL --greybox --output-directory=C:\Users\Jon\Desktop\adc_module_for_top_design_2\ADC\testbench\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading adc_module_for_top_design_2/ADC.qsys
+Progress: Reading input file
+Progress: Adding ADC [altera_modular_adc 18.1]
+Progress: Parameterizing module ADC
+Progress: Adding AvalonBridge [altera_jtag_avalon_master 18.1]
+Progress: Parameterizing module AvalonBridge
+Progress: Adding PLL [altpll 18.1]
+Progress: Parameterizing module PLL
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: ADC.PLL: PLL.areset_conduit must be exported, or connected to a matching conduit.
+Warning: ADC.ADC: Interrupt sender ADC.sample_store_irq is not connected to an interrupt receiver
+Warning: ADC.PLL: PLL.pll_slave must be connected to an Avalon-MM master
+Info: ADC: Generating ADC "ADC" for QUARTUS_SYNTH
+Info: ADC: "ADC" instantiated altera_modular_adc "ADC"
+Info: AvalonBridge: "ADC" instantiated altera_jtag_avalon_master "AvalonBridge"
+Info: PLL: "ADC" instantiated altpll "PLL"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "ADC" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "ADC" instantiated altera_reset_controller "rst_controller"
+Info: control_internal: "ADC" instantiated altera_modular_adc_control "control_internal"
+Info: sequencer_internal: "ADC" instantiated altera_modular_adc_sequencer "sequencer_internal"
+Info: sample_store_internal: "ADC" instantiated altera_modular_adc_sample_store "sample_store_internal"
+Info: jtag_phy_embedded_in_jtag_master: "AvalonBridge" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "AvalonBridge" instantiated timing_adapter "timing_adt"
+Info: fifo: "AvalonBridge" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "AvalonBridge" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "AvalonBridge" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "AvalonBridge" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "AvalonBridge" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "AvalonBridge" instantiated channel_adapter "p2b_adapter"
+Info: AvalonBridge_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "AvalonBridge_master_translator"
+Info: ADC_sample_store_csr_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "ADC_sample_store_csr_translator"
+Info: AvalonBridge_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "AvalonBridge_master_agent"
+Info: ADC_sample_store_csr_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "ADC_sample_store_csr_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: AvalonBridge_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "AvalonBridge_master_limiter"
+Info: Reusing file C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/testbench/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: ADC: Done "ADC" with 30 modules, 54 files
+Info: Generating third-party timing and resource estimation model ...
+Info: Done generating third-party timing and resource estimation model.
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

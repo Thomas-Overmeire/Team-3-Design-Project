@@ -1,0 +1,1495 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Jon/Desktop/adc_module_for_top_design_2/simulation/modelsim
+Eadc
+Z1 w1632276863
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/ADC.vhd
+Z6 FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/ADC.vhd
+l0
+L9
+VlkG`jk@DDdBamjfKOlnAB3
+!s100 U`a>[BJ]k=kcb?Iz@gUe_0
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1632620772
+!i10b 1
+Z9 !s108 1632620772.000000
+Z10 !s90 -reportprogress|300|-93|-work|ADC|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/ADC.vhd|
+Z11 !s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/ADC.vhd|
+!i113 1
+Z12 o-93 -work ADC
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+DEx4 work 3 adc 0 22 lkG`jk@DDdBamjfKOlnAB3
+l245
+L23
+Vf0iUkIATXgBbAK;QFRo5L1
+!s100 nKH?beaYBMJelI_@gaZ=;3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vADC_ADC
+Z14 !s110 1632620764
+!i10b 1
+!s100 [MHjIjLBzA:<zKTLklRK=2
+IO:QRCm34RbOfJz0O;fm>m3
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1632045542
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_ADC.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_ADC.v
+L0 9
+Z16 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z17 !s108 1632620764.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_ADC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_ADC.v|
+!i113 1
+Z18 o-vlog01compat -work ADC
+Z19 !s92 -vlog01compat -work ADC +incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules
+Z20 tCvgOpt 0
+n@a@d@c_@a@d@c
+vADC_AvalonBridge
+Z21 !s110 1632620762
+!i10b 1
+!s100 nW6IX=;P]iW9Klc_Y3AC[3
+IWWbL;I5`0Z<87Z?fImT?i3
+R15
+R0
+w1631952293
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge.v
+L0 9
+R16
+r1
+!s85 0
+31
+Z22 !s108 1632620762.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge.v|
+!i113 1
+R18
+R19
+R20
+n@a@d@c_@avalon@bridge
+vADC_AvalonBridge_b2p_adapter
+Z23 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z24 !s110 1632620771
+!i10b 1
+!s100 OMkj1TM2H@YG>e2h2_egi1
+I:R[XiZ]KQaTG[l3^ZZG231
+R15
+!s105 ADC_AvalonBridge_b2p_adapter_sv_unit
+S1
+R0
+Z25 w1631952299
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_b2p_adapter.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_b2p_adapter.sv
+Z26 L0 55
+R16
+r1
+!s85 0
+31
+Z27 !s108 1632620770.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_b2p_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_b2p_adapter.sv|
+!i113 1
+Z28 o-sv -work ADC
+Z29 !s92 -sv -work ADC +incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules
+R20
+n@a@d@c_@avalon@bridge_b2p_adapter
+vADC_AvalonBridge_p2b_adapter
+R23
+Z30 !s110 1632620770
+!i10b 1
+!s100 NPAmGX<dZ>F7chQ2]ElBO2
+ITjdVMkAWRR?;coZBVGWnQ3
+R15
+!s105 ADC_AvalonBridge_p2b_adapter_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_p2b_adapter.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_p2b_adapter.sv
+R26
+R16
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_p2b_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_p2b_adapter.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_@avalon@bridge_p2b_adapter
+vADC_AvalonBridge_timing_adt
+R23
+R24
+!i10b 1
+!s100 ZCD@Y1C:^YK_>Y>VoQ9m81
+I9S<R7h^cQX>_<;eO?;GB:1
+R15
+!s105 ADC_AvalonBridge_timing_adt_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_timing_adt.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_timing_adt.sv
+L0 60
+R16
+r1
+!s85 0
+31
+!s108 1632620771.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_timing_adt.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_AvalonBridge_timing_adt.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_@avalon@bridge_timing_adt
+vADC_mm_interconnect_0
+Z31 !s110 1632620761
+!i10b 1
+!s100 IF94>]jHhX7<HTTjbYOI<1
+ID]P`oY?[fLYDRJLcV3R1L3
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0.v
+L0 9
+R16
+r1
+!s85 0
+31
+Z32 !s108 1632620761.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0.v|
+!i113 1
+R18
+R19
+R20
+n@a@d@c_mm_interconnect_0
+vADC_mm_interconnect_0_avalon_st_adapter
+R31
+!i10b 1
+!s100 YQeDz3n5]ZEFPml0ekkY?0
+I3o>RFQQ7Blkl_<d^@jLmV1
+R15
+R0
+Z33 w1631952300
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R16
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R18
+R19
+R20
+n@a@d@c_mm_interconnect_0_avalon_st_adapter
+vADC_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R23
+Z34 !s110 1632620767
+!i10b 1
+!s100 oN=lT^[fi1IEE5SURXz?<3
+IW_^d3B9HbBmT_7fKlkFAh2
+R15
+!s105 ADC_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R33
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+L0 66
+R16
+r1
+!s85 0
+31
+Z35 !s108 1632620767.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+vADC_mm_interconnect_0_cmd_demux
+R23
+Z36 !s110 1632620768
+!i10b 1
+!s100 ^E9mFG@1]<;Wd7SJ;7;fb0
+Iic41V8_ECR]c;0K8TV1OS3
+R15
+!s105 ADC_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_cmd_demux.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_cmd_demux.sv
+Z37 L0 43
+R16
+r1
+!s85 0
+31
+Z38 !s108 1632620768.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_cmd_demux
+vADC_mm_interconnect_0_cmd_mux
+R23
+R36
+!i10b 1
+!s100 U;B_F1_L0dkK`]EQL:4]b2
+IB9mRXU:ob]LM_>gS3FRID2
+R15
+!s105 ADC_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_cmd_mux.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_cmd_mux.sv
+Z39 L0 51
+R16
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_cmd_mux
+vADC_mm_interconnect_0_router
+R23
+Z40 !s110 1632620769
+!i10b 1
+!s100 Df[Rl`PYGlfaKo7EWn6mS2
+IEN?8O_zkj7d[8On:mdM2W1
+R15
+Z41 !s105 ADC_mm_interconnect_0_router_sv_unit
+S1
+R0
+R25
+Z42 8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_router.sv
+Z43 FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_router.sv
+Z44 L0 84
+R16
+r1
+!s85 0
+31
+Z45 !s108 1632620769.000000
+Z46 !s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_router.sv|
+Z47 !s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_router.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_router
+vADC_mm_interconnect_0_router_001
+R23
+R40
+!i10b 1
+!s100 a6bU=2U?f6f_mnL6JCXzE1
+I`FKIb=@7;AnlJZhAfOQ4?1
+R15
+Z48 !s105 ADC_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R25
+Z49 8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_router_001.sv
+Z50 FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_router_001.sv
+R44
+R16
+r1
+!s85 0
+31
+R45
+Z51 !s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_router_001.sv|
+Z52 !s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_router_001.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_router_001
+vADC_mm_interconnect_0_router_001_default_decode
+R23
+R40
+!i10b 1
+!s100 G62JMKKHCCgl?Dd;MTI_H0
+I8J6n]AW7S<afiJ3he7O^B1
+R15
+R48
+S1
+R0
+R25
+R49
+R50
+Z53 L0 45
+R16
+r1
+!s85 0
+31
+R45
+R51
+R52
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_router_001_default_decode
+vADC_mm_interconnect_0_router_default_decode
+R23
+R40
+!i10b 1
+!s100 nJI4GX1:PCc2fIY=F^PZZ0
+IzfI_U^4koEg]^STTQ=aWm1
+R15
+R41
+S1
+R0
+R25
+R42
+R43
+R53
+R16
+r1
+!s85 0
+31
+R45
+R46
+R47
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_router_default_decode
+vADC_mm_interconnect_0_rsp_demux
+R23
+R34
+!i10b 1
+!s100 ]Wz8DMdlDlVWQAQKd[_;[1
+I69SER2U::o`@?jen7a]UT0
+R15
+!s105 ADC_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_rsp_demux.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_rsp_demux.sv
+R37
+R16
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_rsp_demux
+vADC_mm_interconnect_0_rsp_mux
+R23
+R34
+!i10b 1
+!s100 1o3hfSabD3N17nQ3l1[C^0
+In<@_EB:bz5BB`:1gjG=GP2
+R15
+!s105 ADC_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_rsp_mux.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_rsp_mux.sv
+R39
+R16
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R28
+R29
+R20
+n@a@d@c_mm_interconnect_0_rsp_mux
+vADC_PLL
+R31
+!i10b 1
+!s100 iA;_DNKVeOX0?`:DUbI[N2
+I_]BdCG3^RSh;o@oacEekM0
+R15
+R0
+Z54 w1631952295
+Z55 8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_PLL.v
+Z56 FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_PLL.v
+L0 213
+R16
+r1
+!s85 0
+31
+R32
+Z57 !s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_PLL.v|
+Z58 !s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/ADC_PLL.v|
+!i113 1
+R18
+R19
+R20
+n@a@d@c_@p@l@l
+vADC_PLL_altpll_5q22
+R31
+!i10b 1
+!s100 B;?VIaCgKmNN[iH`;@[^g2
+I;k=N:OAE]IzJk=nEPWz4O1
+R15
+R0
+R54
+R55
+R56
+L0 130
+R16
+r1
+!s85 0
+31
+R32
+R57
+R58
+!i113 1
+R18
+R19
+R20
+n@a@d@c_@p@l@l_altpll_5q22
+vADC_PLL_dffpipe_l2c
+R31
+!i10b 1
+!s100 AAO=A?mXf8>faL:kXb]g80
+I`=b=CdMY>@lN]iV^z84[@3
+R15
+R0
+R54
+R55
+R56
+Z59 L0 37
+R16
+r1
+!s85 0
+31
+R32
+R57
+R58
+!i113 1
+R18
+R19
+R20
+n@a@d@c_@p@l@l_dffpipe_l2c
+vADC_PLL_stdsync_sv6
+R31
+!i10b 1
+!s100 dFd0ndKRjid>M7nZOo9b`1
+IGPA:>jOQ??^e1BzLVC9KK1
+R15
+R0
+R54
+R55
+R56
+L0 98
+R16
+r1
+!s85 0
+31
+R32
+R57
+R58
+!i113 1
+R18
+R19
+R20
+n@a@d@c_@p@l@l_stdsync_sv6
+valtera_avalon_packets_to_master
+R21
+!i10b 1
+!s100 lb8?6UKeHL0fO:A`Bb0Il1
+ICoKNMANg@e2NOD^d3co2W3
+R15
+R0
+R25
+Z60 8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_packets_to_master.v
+Z61 FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_packets_to_master.v
+Z62 L0 22
+R16
+r1
+!s85 0
+31
+R22
+Z63 !s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_packets_to_master.v|
+Z64 !s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_packets_to_master.v|
+!i113 1
+R18
+R19
+R20
+valtera_avalon_sc_fifo
+R36
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+I28P9]mg]5YMIRmWSmjYcJ2
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_sc_fifo.v
+L0 21
+R16
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+R18
+R19
+R20
+valtera_avalon_st_bytes_to_packets
+R21
+!i10b 1
+!s100 ;<iYFY8LSk5SY9lfnK0]32
+IX^^WjEfSd4;17RDKlVcfX3
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_bytes_to_packets.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_bytes_to_packets.v
+Z65 L0 19
+R16
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_bytes_to_packets.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_bytes_to_packets.v|
+!i113 1
+R18
+R19
+R20
+valtera_avalon_st_clock_crosser
+Z66 !s110 1632620763
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IniTahPIeBzn2nK0hb[bI=0
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_clock_crosser.v
+R62
+R16
+r1
+!s85 0
+31
+Z67 !s108 1632620763.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R18
+R19
+R20
+valtera_avalon_st_idle_inserter
+R14
+!i10b 1
+!s100 S71b16BnCfDWcoZ^EEZTn1
+INFkg^fO6]:hOT4GKZ6ZCb1
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_idle_inserter.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_idle_inserter.v
+R65
+R16
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_idle_inserter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_idle_inserter.v|
+!i113 1
+R18
+R19
+R20
+valtera_avalon_st_idle_remover
+R14
+!i10b 1
+!s100 MZJlUT2CY>hnV]FQIb=S]1
+I^_]9iHhP[U2G<NQVmeVjg0
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_idle_remover.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_idle_remover.v
+R65
+R16
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_idle_remover.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_idle_remover.v|
+!i113 1
+R18
+R19
+R20
+valtera_avalon_st_jtag_interface
+R21
+!i10b 1
+!s100 N7o^ddA[oe3RDKPC5>UZG1
+Iz:Wm3=7bfhQ:l2@MlbZXf0
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_jtag_interface.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_jtag_interface.v
+L0 20
+R16
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_jtag_interface.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_jtag_interface.v|
+!i113 1
+R18
+R19
+R20
+valtera_avalon_st_packets_to_bytes
+R21
+!i10b 1
+!s100 OaagHT1fhIanF4eRR]VLL0
+ID9Dz:iCW3lBXX`52^M<fR1
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_packets_to_bytes.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_packets_to_bytes.v
+R65
+R16
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_packets_to_bytes.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_packets_to_bytes.v|
+!i113 1
+R18
+R19
+R20
+valtera_avalon_st_pipeline_base
+R36
+!i10b 1
+!s100 SP[<U8JVkW?]RHOS`DzPF1
+I2W^U3GfABU<A2dO4z1@842
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_pipeline_base.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_pipeline_base.v
+R62
+R16
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_avalon_st_pipeline_base.v|
+!i113 1
+R18
+R19
+R20
+valtera_jtag_control_signal_crosser
+R66
+!i10b 1
+!s100 `=i;H1E7lBV>R_3e4D5452
+Ii6jk8oWD54Z9mk5^dS:ih1
+R15
+R0
+R25
+Z68 8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_dc_streaming.v
+Z69 FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_dc_streaming.v
+L0 30
+R16
+r1
+!s85 0
+31
+R67
+Z70 !s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_dc_streaming.v|
+Z71 !s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_dc_streaming.v|
+!i113 1
+R18
+R19
+R20
+valtera_jtag_dc_streaming
+R66
+!i10b 1
+!s100 EWdjgenNzZZ[1:h1cb56?0
+Ih?DPz]ZLG>^Z[BX_z0AD[0
+R15
+R0
+R25
+R68
+R69
+L0 135
+R16
+r1
+!s85 0
+31
+R67
+R70
+R71
+!i113 1
+R18
+R19
+R20
+valtera_jtag_sld_node
+R66
+!i10b 1
+!s100 3n0e<ZJ7D0L][I>bEF?Oi2
+IAA_fL7`CE@`Bedj4@J?Le0
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_sld_node.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_sld_node.v
+L0 17
+R16
+r1
+!s85 0
+31
+R67
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_sld_node.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_sld_node.v|
+!i113 1
+R18
+R19
+R20
+valtera_jtag_src_crosser
+R66
+!i10b 1
+!s100 4?GOPZ8SJm>`nd35FBFXc3
+ISUAm39GDQ[0D7zD>Z1MOL3
+R15
+R0
+R25
+R68
+R69
+L0 72
+R16
+r1
+!s85 0
+31
+R67
+R70
+R71
+!i113 1
+R18
+R19
+R20
+valtera_jtag_streaming
+R66
+!i10b 1
+!s100 ge70D<WS<=FgooM5G8W@b0
+I5a<=KbE1f[VTLk:c]J[861
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_streaming.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_streaming.v
+Z72 L0 18
+R16
+r1
+!s85 0
+31
+R67
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_streaming.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_jtag_streaming.v|
+!i113 1
+R18
+R19
+R20
+valtera_merlin_arb_adder
+R23
+R34
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+IEc8L`Uo8dXm<z2=?_a`Ub0
+R15
+Z73 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R25
+Z74 8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_arbitrator.sv
+Z75 FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R16
+r1
+!s85 0
+31
+R35
+Z76 !s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z77 !s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+R28
+R29
+R20
+valtera_merlin_arbitrator
+R23
+R34
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+I?cJlnXfIjzgW`;b?O8B8a1
+R15
+R73
+S1
+R0
+R25
+R74
+R75
+L0 103
+R16
+r1
+!s85 0
+31
+R35
+R76
+R77
+!i113 1
+R28
+R29
+R20
+valtera_merlin_burst_uncompressor
+R23
+R30
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IWEhR8Vz66ma9W;<;h81WH1
+R15
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R16
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R28
+R29
+R20
+valtera_merlin_master_agent
+R23
+R30
+!i10b 1
+!s100 _CJm:YX=>U2LQKH;8=@cb0
+ITWL9GknHMfbe3LWNMV^EC0
+R15
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_master_agent.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_master_agent.sv
+L0 28
+R16
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R28
+R29
+R20
+valtera_merlin_master_translator
+R23
+R30
+!i10b 1
+!s100 NdRk@]3fC2C@V7Rm;dQM31
+I6T8_aH8Iz6JGDUmm`Snig3
+R15
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_master_translator.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_master_translator.sv
+Z78 L0 32
+R16
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R28
+R29
+R20
+valtera_merlin_slave_agent
+R23
+R40
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+I9@V7]hZ6dEIj9JKl5R;m;0
+R15
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_slave_agent.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_slave_agent.sv
+L0 34
+R16
+r1
+!s85 0
+31
+R45
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R28
+R29
+R20
+valtera_merlin_slave_translator
+R23
+R30
+!i10b 1
+!s100 k`9[YAn_dLTkg;GE`mOb61
+IiVEW[eQG?80aNcfYz@25X0
+R15
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_slave_translator.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R16
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R28
+R29
+R20
+valtera_merlin_traffic_limiter
+R23
+R36
+!i10b 1
+!s100 0h4;DR_^c13j]SXILa7d?1
+I:JC8hDH=47TKUR[0[1cNl1
+R15
+!s105 altera_merlin_traffic_limiter_sv_unit
+S1
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_traffic_limiter.sv
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_traffic_limiter.sv
+L0 49
+R16
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_traffic_limiter.sv|
+!s90 -reportprogress|300|-sv|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_merlin_traffic_limiter.sv|
+!i113 1
+R28
+R29
+R20
+valtera_modular_adc_control
+Z79 !s110 1632620766
+!i10b 1
+!s100 @NIJo_PKeT6JIV[6EeaBJ0
+I_eXGHRNkW^enEU@fham<f2
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control.v
+R72
+R16
+r1
+!s85 0
+31
+Z80 !s108 1632620766.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control.v|
+!i113 1
+R18
+R19
+R20
+valtera_modular_adc_control_avrg_fifo
+R79
+!i10b 1
+!s100 A`h0K=1=Qn1TZ5S9FK@JT0
+IVoVhT`iL3X;RK=7X]EXVZ1
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v
+Z81 L0 53
+R16
+r1
+!s85 0
+31
+R80
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v|
+!i113 1
+R18
+R19
+R20
+valtera_modular_adc_control_fsm
+R79
+!i10b 1
+!s100 =f5aK9S48]mkSV:d>^R1A2
+Im898TTPVe3YL691lPmmJ=1
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control_fsm.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control_fsm.v
+R72
+R16
+r1
+!s85 0
+31
+R80
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_control_fsm.v|
+!i113 1
+R18
+R19
+R20
+valtera_modular_adc_sample_store
+Z82 !s110 1632620765
+!i10b 1
+!s100 2Gfcd72dMd5lZFl=hgFWU2
+I<<0BBkdmg>o@@:n]<6>6K0
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sample_store.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sample_store.v
+R72
+R16
+r1
+!s85 0
+31
+Z83 !s108 1632620765.000000
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sample_store.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sample_store.v|
+!i113 1
+R18
+R19
+R20
+valtera_modular_adc_sample_store_ram
+R82
+!i10b 1
+!s100 Y0j>YS0B`IT^3a?jko1QU0
+IAMN>0fo=id;]c4bGUE4S]3
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sample_store_ram.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sample_store_ram.v
+R81
+R16
+r1
+!s85 0
+31
+R83
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sample_store_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sample_store_ram.v|
+!i113 1
+R18
+R19
+R20
+valtera_modular_adc_sequencer
+R82
+!i10b 1
+!s100 hW9S5DAkfd91U=c`MPjnz1
+I98XT8WJ:zTA9T^5Cgi@9:2
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer.v
+R72
+R16
+r1
+!s85 0
+31
+R83
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer.v|
+!i113 1
+R18
+R19
+R20
+valtera_modular_adc_sequencer_csr
+R82
+!i10b 1
+!s100 X?8_4Q>7d3TH;da1Q1ee>0
+I5G917>QkLMomVg^[:nUBW2
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer_csr.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer_csr.v
+R72
+R16
+r1
+!s85 0
+31
+R83
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer_csr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer_csr.v|
+!i113 1
+R18
+R19
+R20
+valtera_modular_adc_sequencer_ctrl
+R82
+!i10b 1
+!s100 RmTEAhSh1Bj39ClM8Nkj10
+IX4a9G_N:^U[GaW3?JE[?_3
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v
+R72
+R16
+r1
+!s85 0
+31
+R83
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v|
+!i113 1
+R18
+R19
+R20
+valtera_reset_controller
+R31
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+I:d7l5QXRUIcVUkFAU4Gk_3
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_reset_controller.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_reset_controller.v
+L0 42
+R16
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R18
+R19
+R20
+valtera_reset_synchronizer
+R31
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+I3L9I^9DW6ACV`LE>ehPRm0
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R16
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R18
+R19
+R20
+valtera_std_synchronizer_nocut
+R14
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+IdVMM:`MULBz@;WaiXU3FW3
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_std_synchronizer_nocut.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R16
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!i113 1
+R18
+R19
+R20
+vchsel_code_converter_sw_to_hw
+R79
+!i10b 1
+!s100 =WSfhd;Qi:YEOK:Ef_E3d3
+IchMO<[@mJRPBAX8@DlN?:3
+R15
+R0
+R25
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/chsel_code_converter_sw_to_hw.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/chsel_code_converter_sw_to_hw.v
+R78
+R16
+r1
+!s85 0
+31
+R80
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/chsel_code_converter_sw_to_hw.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/chsel_code_converter_sw_to_hw.v|
+!i113 1
+R18
+R19
+R20
+vfifo_buffer
+R21
+!i10b 1
+!s100 DMV9zRnPjWDbzTRVo^2TT0
+I1?`DTg8=aH6Un2@:fjXoK1
+R15
+R0
+R25
+R60
+R61
+L0 627
+R16
+r1
+!s85 0
+31
+R22
+R63
+R64
+!i113 1
+R18
+R19
+R20
+vfifo_buffer_scfifo_with_controls
+R21
+!i10b 1
+!s100 zmOh<:bil5=WKFX;=j_Af2
+I<EIoiBN=LW1XNdF2=2^QK2
+R15
+R0
+R25
+R60
+R61
+L0 573
+R16
+r1
+!s85 0
+31
+R22
+R63
+R64
+!i113 1
+R18
+R19
+R20
+vfifo_buffer_single_clock_fifo
+R21
+!i10b 1
+!s100 l?APnUI8_=1IUOC<`QGGJ3
+I[RoO_Kef>XB5lmYE2k@dI1
+R15
+R0
+R25
+R60
+R61
+L0 512
+R16
+r1
+!s85 0
+31
+R22
+R63
+R64
+!i113 1
+R18
+R19
+R20
+vfifo_to_packet
+R21
+!i10b 1
+!s100 TbDMFiLf3D=`0Ekh08_[C1
+I3Mn?n8VO^XfNMSCBVo=hi2
+R15
+R0
+R25
+R60
+R61
+L0 697
+R16
+r1
+!s85 0
+31
+R22
+R63
+R64
+!i113 1
+R18
+R19
+R20
+vfiftyfivenm_adcblock_primitive_wrapper
+R34
+!i10b 1
+!s100 JOR4T3hFo`G7jP0h0ABE]0
+ImHLg5A2I6J=D]DFho?Z6b2
+R15
+R0
+Z84 w1632279532
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v
+R59
+R16
+r1
+!s85 0
+31
+R80
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v|
+!i113 1
+R18
+R19
+R20
+vfiftyfivenm_adcblock_top_wrapper
+R34
+!i10b 1
+!s100 E1dFXW]ZW^XgJYQUflOBV2
+I=fYc:>eobhhRd4zY@TXSO1
+R15
+R0
+R84
+8C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v
+FC:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v
+L0 31
+R16
+r1
+!s85 0
+31
+R35
+!s107 C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|ADC|+incdir+C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules|C:/Users/Jon/Desktop/adc_module_for_top_design_2/ADC/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v|
+!i113 1
+R18
+R19
+R20
+vpackets_to_fifo
+R21
+!i10b 1
+!s100 ]MF>U8bo@HjJhzaW6aNB[2
+IFH<i9kT6LWQ<zWCNml4dK3
+R15
+R0
+R25
+R60
+R61
+L0 142
+R16
+r1
+!s85 0
+31
+R22
+R63
+R64
+!i113 1
+R18
+R19
+R20
+vpackets_to_master
+R21
+!i10b 1
+!s100 m[YiF06PnnS]oE=1iCkXI1
+IzmCAjE4C[6>00McdfBdzM2
+R15
+R0
+R25
+R60
+R61
+L0 851
+R16
+r1
+!s85 0
+31
+R22
+R63
+R64
+!i113 1
+R18
+R19
+R20

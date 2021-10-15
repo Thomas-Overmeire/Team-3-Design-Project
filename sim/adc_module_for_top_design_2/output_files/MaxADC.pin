@@ -1,0 +1,555 @@
+ -- Copyright (C) 2018  Intel Corporation. All rights reserved.
+ -- Your use of Intel Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Intel Program License 
+ -- Subscription Agreement, the Intel Quartus Prime License Agreement,
+ -- the Intel FPGA IP License Agreement, or other applicable license
+ -- agreement, including, without limitation, that your use is for
+ -- the sole purpose of programming logic devices manufactured by
+ -- Intel and sold by Intel or its authorized distributors.  Please
+ -- refer to the applicable agreement for further details.
+ -- 
+ -- This is a Quartus Prime output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus Prime input file. This file cannot be used
+ -- to make Quartus Prime pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus Prime help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --                  Bank 1A:       2.5V
+ --                  Bank 1B:       2.5V
+ --                  Bank 2:       2.5V
+ --                  Bank 3:       2.5V
+ --                  Bank 4:       2.5V
+ --                  Bank 5:       2.5V
+ --                  Bank 6:       2.5V
+ --                  Bank 7:       2.5V
+ --                  Bank 8:       2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --                  It can also be used to report unused dedicated pins. The connection
+ --                  on the board for unused dedicated pins depends on whether this will
+ --                  be used in a future design. One example is device migration. When
+ --                  using device migration, refer to the device pin-tables. If it is a
+ --                  GND pin in the pin table or if it will not be used in a future design
+ --                  for another purpose the it MUST be connected to GND. If it is an unused
+ --                  dedicated pin, then it can be connected to a valid signal on the board
+ --                  (low, high, or toggling) if that signal is required for a different
+ --                  revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --                  This pin should be connected to GND. It may also be connected  to a
+ --                  valid signal  on the board  (low, high, or toggling)  if that signal
+ --                  is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --                  or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+CHIP  "MaxADC"  ASSIGNED TO AN: 10M50DAF484C7G
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+GND                          : A1        : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[6][12] : A2        : input  : 2.5 V             :         : 8         : N              
+coeffs_in[6]                 : A3        : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_coeff[2][5] : A4        : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_coeff[2][6] : A5        : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A6        :        :                   :         : 8         :                
+data_out[6]                  : A7        : output : 2.5 V             :         : 7         : N              
+filter_in[2]                 : A8        : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_out[8]   : A9        : output : 2.5 V             :         : 7         : N              
+filter_in[8]                 : A10       : input  : 2.5 V             :         : 7         : N              
+data_in[2]                   : A11       : input  : 2.5 V             :         : 7         : N              
+data_out[12]                 : A12       : output : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[5][8] : A13       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[2][3] : A14       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[1][1] : A15       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[3][11] : A16       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A17       :        :                   :         : 7         :                
+data_in[7]                   : A18       : input  : 2.5 V             :         : 7         : N              
+coeffs_in[5]                 : A19       : input  : 2.5 V             :         : 7         : N              
+filter_in[13]                : A20       : input  : 2.5 V             :         : 7         : N              
+data_in[31]                  : A21       : input  : 2.5 V             :         : 6         : N              
+GND                          : A22       : gnd    :                   :         :           :                
+Discrete_FIR_Filter_out[9]   : AA1       : output : 2.5 V             :         : 3         : N              
+data_out[3]                  : AA2       : output : 2.5 V             :         : 3         : N              
+data_in[30]                  : AA3       : input  : 2.5 V             :         : 3         : N              
+GND                          : AA4       : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[1][2] : AA5       : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_in[1]    : AA6       : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[6][11] : AA7       : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[1][8] : AA8       : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA9       :        :                   :         : 3         :                
+data_in[0]                   : AA10      : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[4][2] : AA11      : input  : 2.5 V             :         : 4         : N              
+filter_out[7]                : AA12      : output : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_coeff[5][1] : AA13      : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_out[4]   : AA14      : output : 2.5 V             :         : 4         : N              
+data_in[12]                  : AA15      : input  : 2.5 V             :         : 4         : N              
+filter_in[9]                 : AA16      : input  : 2.5 V             :         : 4         : N              
+coeffs_in[10]                : AA17      : input  : 2.5 V             :         : 4         : N              
+GND                          : AA18      : gnd    :                   :         :           :                
+write_address[1]             : AA19      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA20      :        :                   :         : 4         :                
+Discrete_FIR_Filter_coeff[4][6] : AA21      : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA22      :        :                   :         : 5         :                
+GND                          : AB1       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB2       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB3       :        :                   :         : 3         :                
+filter_out[8]                : AB4       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :         : 3         :                
+Discrete_FIR_Filter_coeff[6][9] : AB6       : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[0][5] : AB7       : input  : 2.5 V             :         : 3         : N              
+filter_out[5]                : AB8       : output : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[1][4] : AB9       : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[3][13] : AB10      : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_in[13]   : AB11      : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_coeff[0][2] : AB12      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB13      :        :                   :         : 4         :                
+Discrete_FIR_Filter_out[2]   : AB14      : output : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_coeff[3][5] : AB15      : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_coeff[0][3] : AB16      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB17      :        :                   :         : 4         :                
+Discrete_FIR_Filter_coeff[5][12] : AB18      : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_in[7]    : AB19      : input  : 2.5 V             :         : 4         : N              
+data_out[4]                  : AB20      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB21      :        :                   :         : 4         :                
+GND                          : AB22      : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[4][1] : B1        : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_in[3]    : B2        : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_coeff[0][8] : B3        : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_coeff[3][1] : B4        : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B5        :        :                   :         : 8         :                
+GND                          : B6        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B7        :        :                   :         : 8         :                
+data_out[9]                  : B8        : output : 2.5 V             :         : 7         : N              
+GND                          : B9        : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[4][12] : B10       : input  : 2.5 V             :         : 7         : N              
+filter_out[0]                : B11       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B12       :        :                   :         : 7         :                
+GND                          : B13       : gnd    :                   :         :           :                
+Discrete_FIR_Filter_in[8]    : B14       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_out[7]   : B15       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 7         :                
+Discrete_FIR_Filter_coeff[2][8] : B17       : input  : 2.5 V             :         : 7         : N              
+GND                          : B18       : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[2][9] : B19       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[4][5] : B20       : input  : 2.5 V             :         : 6         : N              
+filter_in[12]                : B21       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[1][5] : B22       : input  : 2.5 V             :         : 6         : N              
+data_out[11]                 : C1        : output : 2.5 V             :         : 1B        : N              
+filter_in[6]                 : C2        : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C4        :        :                   :         : 8         :                
+Discrete_FIR_Filter_coeff[3][3] : C5        : input  : 2.5 V             :         : 8         : N              
+data_out[14]                 : C6        : output : 2.5 V             :         : 8         : N              
+filter_out[2]                : C7        : output : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_out[10]  : C8        : output : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_coeff[0][10] : C9        : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C10       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C11       :        :                   :         : 7         :                
+Discrete_FIR_Filter_out[0]   : C12       : output : 2.5 V             :         : 7         : N              
+write_address[0]             : C13       : input  : 2.5 V             :         : 7         : N              
+filter_out[1]                : C14       : output : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[2][11] : C15       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[5][4] : C16       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C17       :        :                   :         : 7         :                
+filter_in[11]                : C18       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C19       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C20       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C21       :        :                   :         : 6         :                
+coeffs_in[8]                 : C22       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[4][9] : D1        : input  : 2.5 V             :         : 1B        : N              
+Discrete_FIR_Filter_in[4]    : D2        : input  : 2.5 V             :         : 1B        : N              
+data_in[21]                  : D3        : input  : 2.5 V             :         : 1B        : N              
+GND                          : D4        : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[0][7] : D5        : input  : 2.5 V             :         : 8         : N              
+clk_enable                   : D6        : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_coeff[1][12] : D7        : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D8        :        :                   :         : 8         :                
+coeffs_in[9]                 : D9        : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_in[10]   : D10       : input  : 2.5 V             :         : 8         : N              
+GND                          : D11       : gnd    :                   :         :           :                
+filter_in[3]                 : D12       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[4][13] : D13       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D14       :        :                   :         : 7         :                
+data_in[4]                   : D15       : input  : 2.5 V             :         : 7         : N              
+GND                          : D16       : gnd    :                   :         :           :                
+write_address[2]             : D17       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D18       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D19       :        :                   :         : 6         :                
+GND                          : D20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D21       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D22       :        :                   :         : 6         :                
+Discrete_FIR_Filter_in[9]    : E1        : input  : 2.5 V             :         : 1B        : N              
+GND                          : E2        : gnd    :                   :         :           :                
+~ALTERA_ADC2IN8~             : E3        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC2IN1~             : E4        : input  : 2.5 V             :         : 1A        : N              
+NC                           : E5        :        :                   :         :           :                
+Discrete_FIR_Filter_coeff[4][11] : E6        : input  : 2.5 V             :         : 8         : N              
+GND                          : E7        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E8        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :         : 8         :                
+write_enable                 : E10       : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_coeff[6][3] : E11       : input  : 2.5 V             :         : 8         : N              
+Discrete_FIR_Filter_coeff[5][9] : E12       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[2][7] : E13       : input  : 2.5 V             :         : 7         : N              
+data_in[11]                  : E14       : input  : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[1][11] : E15       : input  : 2.5 V             :         : 7         : N              
+coeffs_in[11]                : E16       : input  : 2.5 V             :         : 7         : N              
+filter_in[5]                 : E17       : input  : 2.5 V             :         : 6         : N              
+data_in[1]                   : E18       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[6][13] : E19       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E20       :        :                   :         : 6         :                
+data_in[27]                  : E21       : input  : 2.5 V             :         : 6         : N              
+data_in[15]                  : E22       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[5][0] : F1        : input  : 2.5 V             :         : 1B        : N              
+data_in[19]                  : F2        : input  : 2.5 V             :         : 1B        : N              
+~ALTERA_ADC2IN4~             : F3        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC1IN2~             : F4        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC1IN1~             : F5        : input  : 2.5 V             :         : 1A        : N              
+NC                           : F6        :        :                   :         :           :                
+coeffs_in[2]                 : F7        : input  : 2.5 V             :         : 8         : N              
+~ALTERA_CONF_DONE~ / RESERVED_INPUT : F8        : input  : 2.5 V Schmitt Trigger :         : 8         : N              
+VCCIO8                       : F9        : power  :                   : 2.5V    : 8         :                
+GND                          : F10       : gnd    :                   :         :           :                
+VCCIO8                       : F11       : power  :                   : 2.5V    : 8         :                
+VCCIO7                       : F12       : power  :                   : 2.5V    : 7         :                
+GND                          : F13       : gnd    :                   :         :           :                
+VCCIO7                       : F14       : power  :                   : 2.5V    : 7         :                
+Discrete_FIR_Filter_in[12]   : F15       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F16       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F17       :        :                   :         : 6         :                
+Discrete_FIR_Filter_coeff[6][6] : F18       : input  : 2.5 V             :         : 6         : N              
+data_in[9]                   : F19       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_in[2]    : F20       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F21       :        :                   :         : 6         :                
+Discrete_FIR_Filter_coeff[6][0] : F22       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[1][10] : G1        : input  : 2.5 V             :         : 1B        : N              
+altera_reserved_tck          : G2        : input  : 2.5 V Schmitt Trigger :         : 1B        : N              
+~ALTERA_ADC2IN6~             : G3        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC2IN3~             : G4        : input  : 2.5 V             :         : 1A        : N              
+ANAIN1                       : G5        :        :                   :         :           :                
+GND                          : G6        : gnd    :                   :         :           :                
+VCCD_PLL3                    : G7        : power  :                   : 1.2V    :           :                
+GND                          : G8        : gnd    :                   :         :           :                
+~ALTERA_nSTATUS~ / RESERVED_INPUT : G9        : input  : 2.5 V Schmitt Trigger :         : 8         : N              
+VCCIO8                       : G10       : power  :                   : 2.5V    : 8         :                
+VCCIO8                       : G11       : power  :                   : 2.5V    : 8         :                
+VCCIO7                       : G12       : power  :                   : 2.5V    : 7         :                
+VCCIO7                       : G13       : power  :                   : 2.5V    : 7         :                
+VCCIO7                       : G14       : power  :                   : 2.5V    : 7         :                
+GND                          : G15       : gnd    :                   :         :           :                
+VCCD_PLL2                    : G16       : power  :                   : 1.2V    :           :                
+Discrete_FIR_Filter_in[11]   : G17       : input  : 2.5 V             :         : 6         : N              
+GND                          : G18       : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[1][3] : G19       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G20       :        :                   :         : 6         :                
+GND                          : G21       : gnd    :                   :         :           :                
+coeffs_in[12]                : G22       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[3][12] : H1        : input  : 2.5 V             :         : 1B        : N              
+altera_reserved_tms          : H2        : input  : 2.5 V Schmitt Trigger :         : 1B        : N              
+~ALTERA_ADC1IN6~             : H3        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC2IN5~             : H4        : input  : 2.5 V             :         : 1A        : N              
+REFGND                       : H5        :        :                   :         :           :                
+ADC_VREF                     : H6        :        :                   :         :           :                
+VCCA_ADC                     : H7        : power  :                   : 2.5V    :           :                
+VCCA3                        : H8        : power  :                   : 2.5V    :           :                
+~ALTERA_nCONFIG~ / RESERVED_INPUT : H9        : input  : 2.5 V Schmitt Trigger :         : 8         : N              
+~ALTERA_CONFIG_SEL~ / RESERVED_INPUT : H10       : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H11       :        :                   :         : 8         :                
+Discrete_FIR_Filter_out[12]  : H12       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H13       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H14       :        :                   :         : 7         :                
+VCCA2                        : H15       : power  :                   : 2.5V    :           :                
+VCCIO6                       : H16       : power  :                   : 2.5V    : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H17       :        :                   :         : 6         :                
+data_in[17]                  : H18       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H19       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H20       :        :                   :         : 6         :                
+Discrete_FIR_Filter_coeff[6][5] : H21       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[4][10] : H22       : input  : 2.5 V             :         : 6         : N              
+data_in[28]                  : J1        : input  : 2.5 V             :         : 1B        : N              
+GND                          : J2        : gnd    :                   :         :           :                
+~ALTERA_ADC2IN2~             : J3        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC1IN5~             : J4        : input  : 2.5 V             :         : 1A        : N              
+ANAIN2                       : J5        :        :                   :         :           :                
+GND                          : J6        : gnd    :                   :         :           :                
+VCCINT                       : J7        : power  :                   : 1.2V    :           :                
+~ALTERA_ADC1IN3~             : J8        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC1IN4~             : J9        : input  : 2.5 V             :         : 1A        : N              
+Discrete_FIR_Filter_coeff[1][0] : J10       : input  : 2.5 V             :         : 8         : N              
+data_out[13]                 : J11       : output : 2.5 V             :         : 7         : N              
+Discrete_FIR_Filter_coeff[0][1] : J12       : input  : 2.5 V             :         : 7         : N              
+data_in[23]                  : J13       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J14       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J15       :        :                   :         : 6         :                
+GND                          : J16       : gnd    :                   :         :           :                
+VCCIO6                       : J17       : power  :                   : 2.5V    : 6         :                
+data_out[0]                  : J18       : output : 2.5 V             :         : 6         : N              
+GND                          : J19       : gnd    :                   :         :           :                
+data_in[13]                  : J20       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J21       :        :                   :         : 6         :                
+Discrete_FIR_Filter_coeff[5][6] : J22       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K1        :        :                   :         : 1B        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K2        :        :                   :         : 1B        :                
+GND                          : K3        : gnd    :                   :         :           :                
+~ALTERA_ADC2IN7~             : K4        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC1IN7~             : K5        : input  : 2.5 V             :         : 1A        : N              
+~ALTERA_ADC1IN8~             : K6        : input  : 2.5 V             :         : 1A        : N              
+VCCIO1A                      : K7        : power  :                   : 2.5V    : 1A        :                
+filter_in[0]                 : K8        : input  : 2.5 V             :         : 1B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K9        :        :                   :         : 1B        :                
+GND                          : K10       : gnd    :                   :         :           :                
+VCC                          : K11       : power  :                   : 1.2V    :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+VCC                          : K13       : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K14       :        :                   :         : 6         :                
+Discrete_FIR_Filter_coeff[3][8] : K15       : input  : 2.5 V             :         : 6         : N              
+VCCIO6                       : K16       : power  :                   : 2.5V    : 6         :                
+VCCIO6                       : K17       : power  :                   : 2.5V    : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K18       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K19       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K20       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K21       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K22       :        :                   :         : 6         :                
+write_address[3]             : L1        : input  : 2.5 V             :         : 1B        : N              
+Discrete_FIR_Filter_coeff[2][12] : L2        : input  : 2.5 V             :         : 1B        : N              
+DNU                          : L3        :        :                   :         :           :                
+altera_reserved_tdi          : L4        : input  : 2.5 V Schmitt Trigger :         : 1B        : N              
+GND                          : L5        : gnd    :                   :         :           :                
+VCCIO1A                      : L6        : power  :                   : 2.5V    : 1A        :                
+VCCIO1B                      : L7        : power  :                   : 2.5V    : 1B        :                
+filter_out[13]               : L8        : output : 2.5 V             :         : 1B        : N              
+Discrete_FIR_Filter_coeff[2][1] : L9        : input  : 2.5 V             :         : 1B        : N              
+VCC                          : L10       : power  :                   : 1.2V    :           :                
+VCC                          : L11       : power  :                   : 1.2V    :           :                
+VCC                          : L12       : power  :                   : 1.2V    :           :                
+GND                          : L13       : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[0][6] : L14       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[0][4] : L15       : input  : 2.5 V             :         : 6         : N              
+VCCIO6                       : L16       : power  :                   : 2.5V    : 6         :                
+GND                          : L17       : gnd    :                   :         :           :                
+write_address[7]             : L18       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[1][7] : L19       : input  : 2.5 V             :         : 6         : N              
+data_out[2]                  : L20       : output : 2.5 V             :         : 6         : N              
+GND                          : L21       : gnd    :                   :         :           :                
+reset                        : L22       : input  : 2.5 V             :         : 5         : Y              
+data_out[7]                  : M1        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M3        :        :                   :         : 1B        :                
+coeffs_in[7]                 : M4        : input  : 2.5 V             :         : 1B        : N              
+altera_reserved_tdo          : M5        : output : 2.5 V             :         : 1B        : N              
+VCCIO1B                      : M6        : power  :                   : 2.5V    : 1B        :                
+GND                          : M7        : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[5][13] : M8        : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M9        :        :                   :         : 2         :                
+GND                          : M10       : gnd    :                   :         :           :                
+VCC                          : M11       : power  :                   : 1.2V    :           :                
+VCC                          : M12       : power  :                   : 1.2V    :           :                
+VCC                          : M13       : power  :                   : 1.2V    :           :                
+Discrete_FIR_Filter_coeff[4][8] : M14       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[3][9] : M15       : input  : 2.5 V             :         : 6         : N              
+GND                          : M16       : gnd    :                   :         :           :                
+VCCIO6                       : M17       : power  :                   : 2.5V    : 6         :                
+data_in[22]                  : M18       : input  : 2.5 V             :         : 6         : N              
+GND                          : M19       : gnd    :                   :         :           :                
+coeffs_in[13]                : M20       : input  : 2.5 V             :         : 6         : N              
+coeffs_in[3]                 : M21       : input  : 2.5 V             :         : 5         : N              
+Discrete_FIR_Filter_out[3]   : M22       : output : 2.5 V             :         : 5         : N              
+data_in[18]                  : N1        : input  : 2.5 V             :         : 2         : N              
+ce_out                       : N2        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N4        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N5        :        :                   :         : 2         :                
+VCCIO2                       : N6        : power  :                   : 2.5V    : 2         :                
+VCCIO2                       : N7        : power  :                   : 2.5V    : 2         :                
+data_in[14]                  : N8        : input  : 2.5 V             :         : 2         : N              
+Discrete_FIR_Filter_coeff[3][10] : N9        : input  : 2.5 V             :         : 2         : N              
+VCC                          : N10       : power  :                   : 1.2V    :           :                
+GND                          : N11       : gnd    :                   :         :           :                
+VCC                          : N12       : power  :                   : 1.2V    :           :                
+GND                          : N13       : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[0][13] : N14       : input  : 2.5 V             :         : 6         : N              
+Discrete_FIR_Filter_coeff[5][3] : N15       : input  : 2.5 V             :         : 6         : N              
+VCCIO5                       : N16       : power  :                   : 2.5V    : 5         :                
+VCCIO6                       : N17       : power  :                   : 2.5V    : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N18       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N19       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N20       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N21       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : N22       :        :                   :         : 5         :                
+Discrete_FIR_Filter_coeff[6][7] : P1        : input  : 2.5 V             :         : 2         : N              
+GND                          : P2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 2         :                
+Discrete_FIR_Filter_out[5]   : P4        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P5        :        :                   :         : 2         :                
+GND                          : P6        : gnd    :                   :         :           :                
+VCCIO2                       : P7        : power  :                   : 2.5V    : 2         :                
+data_in[8]                   : P8        : input  : 2.5 V             :         : 2         : N              
+data_in[6]                   : P9        : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[2][4] : P10       : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[2][0] : P11       : input  : 2.5 V             :         : 3         : N              
+filter_in[4]                 : P12       : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_coeff[6][8] : P13       : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P14       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P15       :        :                   :         : 5         :                
+VCCIO5                       : P16       : power  :                   : 2.5V    : 5         :                
+GND                          : P17       : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[0][9] : P18       : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P19       :        :                   :         : 5         :                
+filter_in[1]                 : P20       : input  : 2.5 V             :         : 5         : N              
+Discrete_FIR_Filter_coeff[5][2] : P21       : input  : 2.5 V             :         : 5         : N              
+Discrete_FIR_Filter_coeff[2][13] : P22       : input  : 2.5 V             :         : 5         : N              
+Discrete_FIR_Filter_coeff[5][7] : R1        : input  : 2.5 V             :         : 2         : N              
+data_in[25]                  : R2        : input  : 2.5 V             :         : 2         : N              
+filter_out[12]               : R3        : output : 2.5 V             :         : 2         : N              
+Discrete_FIR_Filter_coeff[5][11] : R4        : input  : 2.5 V             :         : 2         : N              
+data_out[5]                  : R5        : output : 2.5 V             :         : 2         : N              
+VCCIO2                       : R6        : power  :                   : 2.5V    : 2         :                
+Discrete_FIR_Filter_coeff[5][5] : R7        : input  : 2.5 V             :         : 2         : N              
+VCCA1                        : R8        : power  :                   : 2.5V    :           :                
+Discrete_FIR_Filter_coeff[6][2] : R9        : input  : 2.5 V             :         : 3         : N              
+data_in[24]                  : R10       : input  : 2.5 V             :         : 3         : N              
+clk_in                       : R11       : input  : 2.5 V             :         : 3         : N              
+data_in[16]                  : R12       : input  : 2.5 V             :         : 4         : N              
+write_address[5]             : R13       : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R14       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R15       :        :                   :         : 5         :                
+VCCIO5                       : R16       : power  :                   : 2.5V    : 5         :                
+VCCIO5                       : R17       : power  :                   : 2.5V    : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R18       :        :                   :         : 5         :                
+GND                          : R19       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R20       :        :                   :         : 5         :                
+GND                          : R21       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R22       :        :                   :         : 5         :                
+data_in[3]                   : T1        : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 2         :                
+GND                          : T4        : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[4][3] : T5        : input  : 2.5 V             :         : 2         : N              
+Discrete_FIR_Filter_in[6]    : T6        : input  : 2.5 V             :         : 2         : N              
+VCCD_PLL1                    : T7        : power  :                   : 1.2V    :           :                
+GND                          : T8        : gnd    :                   :         :           :                
+VCCIO3                       : T9        : power  :                   : 2.5V    : 3         :                
+VCCIO3                       : T10       : power  :                   : 2.5V    : 3         :                
+VCCIO3                       : T11       : power  :                   : 2.5V    : 3         :                
+VCCIO4                       : T12       : power  :                   : 2.5V    : 4         :                
+VCCIO4                       : T13       : power  :                   : 2.5V    : 4         :                
+GND                          : T14       : gnd    :                   :         :           :                
+VCCA4                        : T15       : power  :                   : 2.5V    :           :                
+GND                          : T16       : gnd    :                   :         :           :                
+VCCIO5                       : T17       : power  :                   : 2.5V    : 5         :                
+Discrete_FIR_Filter_coeff[3][6] : T18       : input  : 2.5 V             :         : 5         : N              
+Discrete_FIR_Filter_out[1]   : T19       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T20       :        :                   :         : 5         :                
+Discrete_FIR_Filter_coeff[1][9] : T21       : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T22       :        :                   :         : 5         :                
+Discrete_FIR_Filter_in[0]    : U1        : input  : 2.5 V             :         : 2         : N              
+Discrete_FIR_Filter_coeff[3][4] : U2        : input  : 2.5 V             :         : 2         : N              
+Discrete_FIR_Filter_coeff[3][7] : U3        : input  : 2.5 V             :         : 2         : N              
+Discrete_FIR_Filter_coeff[4][0] : U4        : input  : 2.5 V             :         : 2         : N              
+write_done                   : U5        : input  : 2.5 V             :         : 2         : N              
+Discrete_FIR_Filter_coeff[0][0] : U6        : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_out[14]  : U7        : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : U8        : power  :                   : 2.5V    : 3         :                
+VCCIO3                       : U9        : power  :                   : 2.5V    : 3         :                
+GND                          : U10       : gnd    :                   :         :           :                
+VCCIO4                       : U11       : power  :                   : 2.5V    : 4         :                
+VCCIO4                       : U12       : power  :                   : 2.5V    : 4         :                
+GND                          : U13       : gnd    :                   :         :           :                
+VCCIO4                       : U14       : power  :                   : 2.5V    : 4         :                
+data_in[10]                  : U15       : input  : 2.5 V             :         : 4         : N              
+VCCD_PLL4                    : U16       : power  :                   : 1.2V    :           :                
+write_address[4]             : U17       : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U18       :        :                   :         : 5         :                
+Discrete_FIR_Filter_coeff[6][1] : U19       : input  : 2.5 V             :         : 5         : N              
+filter_out[10]               : U20       : output : 2.5 V             :         : 5         : N              
+filter_out[3]                : U21       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U22       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 2         :                
+GND                          : V2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V3        :        :                   :         : 2         :                
+Discrete_FIR_Filter_coeff[3][0] : V4        : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V5        :        :                   :         : 3         :                
+GND                          : V6        : gnd    :                   :         :           :                
+Discrete_FIR_Filter_coeff[4][7] : V7        : input  : 2.5 V             :         : 3         : N              
+data_in[26]                  : V8        : input  : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[0][12] : V9        : input  : 2.5 V             :         : 3         : N              
+rst_in_L                     : V10       : input  : 2.5 V             :         : 3         : N              
+coeffs_in[0]                 : V11       : input  : 2.5 V             :         : 4         : N              
+data_out[10]                 : V12       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V13       :        :                   :         : 4         :                
+Discrete_FIR_Filter_out[13]  : V14       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V15       :        :                   :         : 4         :                
+coeffs_in[4]                 : V16       : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V17       :        :                   :         : 4         :                
+data_in[5]                   : V18       : input  : 2.5 V             :         : 5         : N              
+GND                          : V19       : gnd    :                   :         :           :                
+filter_out[11]               : V20       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V21       :        :                   :         : 5         :                
+Discrete_FIR_Filter_in[5]    : V22       : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W1        :        :                   :         : 2         :                
+Discrete_FIR_Filter_out[11]  : W2        : output : 2.5 V             :         : 2         : N              
+Discrete_FIR_Filter_coeff[1][13] : W3        : input  : 2.5 V             :         : 3         : N              
+data_in[29]                  : W4        : input  : 2.5 V             :         : 3         : N              
+coeffs_in[1]                 : W5        : input  : 2.5 V             :         : 3         : N              
+data_out[1]                  : W6        : output : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[1][6] : W7        : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W8        :        :                   :         : 3         :                
+Discrete_FIR_Filter_coeff[6][4] : W9        : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W10       :        :                   :         : 3         :                
+clk                          : W11       : input  : 2.5 V             :         : 4         : N              
+write_address[6]             : W12       : input  : 2.5 V             :         : 4         : N              
+filter_in[7]                 : W13       : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W14       :        :                   :         : 4         :                
+Discrete_FIR_Filter_coeff[5][10] : W15       : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_out[6]   : W16       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W17       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W18       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W19       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W20       :        :                   :         : 5         :                
+GND                          : W21       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W22       :        :                   :         : 5         :                
+filter_out[4]                : Y1        : output : 2.5 V             :         : 3         : N              
+filter_out[6]                : Y2        : output : 2.5 V             :         : 3         : N              
+data_out[8]                  : Y3        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y4        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y5        :        :                   :         : 3         :                
+Discrete_FIR_Filter_coeff[4][4] : Y6        : input  : 2.5 V             :         : 3         : N              
+filter_out[9]                : Y7        : output : 2.5 V             :         : 3         : N              
+Discrete_FIR_Filter_coeff[2][10] : Y8        : input  : 2.5 V             :         : 3         : N              
+GND                          : Y9        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y10       :        :                   :         : 3         :                
+data_in[20]                  : Y11       : input  : 2.5 V             :         : 4         : N              
+GND                          : Y12       : gnd    :                   :         :           :                
+filter_in[10]                : Y13       : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y14       :        :                   :         : 4         :                
+GND                          : Y15       : gnd    :                   :         :           :                
+enb                          : Y16       : input  : 2.5 V             :         : 4         : N              
+filter_out[14]               : Y17       : output : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_coeff[2][2] : Y18       : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_coeff[3][2] : Y19       : input  : 2.5 V             :         : 4         : N              
+Discrete_FIR_Filter_coeff[0][11] : Y20       : input  : 2.5 V             :         : 5         : N              
+Discrete_FIR_Filter_coeff[6][10] : Y21       : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y22       :        :                   :         : 5         :                
